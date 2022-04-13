@@ -69,7 +69,7 @@ You should now be able to control the Virtual Turtle with your keyboard arrow ke
 
 **Installing Joy**
 
-_In a new tab:_
+_In a new terminal:_
 
     Source /opt/ros/noetic/setup.bash
     
@@ -115,7 +115,7 @@ For example my controller was js0.
    
       sudo chomd a+rw /dev/input/js()
 
-_In a new tab:_
+_In a new terminal:_
 
     source /opt/ros/noetic/setup.bash
 
@@ -123,7 +123,7 @@ _In a new tab:_
     
     rosrun joy joy_node
     
- _In a new tab:_
+ _In a new terminal:_
  
     source /opt/ros/noetic/setup.bash
     
