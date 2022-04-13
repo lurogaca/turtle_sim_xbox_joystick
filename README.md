@@ -103,11 +103,11 @@ For example my controller was js0.
   
       ls -l /dev/input/js()   %This is a lower case L not an I or 1.
       
-   If your joystick is configured properly you will see:
+   If your joystick is configured properly you will see(Or something similar):
    
    ![sudo_chmod_joystick](https://user-images.githubusercontent.com/103153240/163245523-9824e7f0-bfc2-453e-b3d9-5bc5f0d648c0.png)
    
-   If your joystick is NOT configured properly you will see:
+   If your joystick is NOT configured properly you will see(Or something similar):
    
    ![sudo_chmod_joystick_notconfig](https://user-images.githubusercontent.com/103153240/163245576-d5fc5a68-34f7-460f-a13c-303c1dfa49d3.png)
    
