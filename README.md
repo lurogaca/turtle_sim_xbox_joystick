@@ -59,7 +59,7 @@ _In a new terminal:_
 
     rosrun turtlesim turtle_teleop_key
     
-You should now be able to control the Virtual turtle with your keyboard arrow keys.
+You should now be able to control the Virtual Turtle with your keyboard arrow keys.
 
 
 
