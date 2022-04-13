@@ -186,7 +186,7 @@ Paste the following code into your launch file (Make sure the js0 on line #8 mat
       <param name="axis_angular" value="0" type="int"/>
       <param name="scale_linear" value="2" type="double"/>
       <param name="scale_angular" value="2" type="double"/>
-      <node pkg="learning_joy" type="turtle_teleop_joy" name="teleop"/>
+      <node pkg="learning_joy" type="map.py" name="teleop"/>
     </launch>
 
 Go back to your terminal and hit Ctrl C.
