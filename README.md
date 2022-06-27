@@ -113,7 +113,7 @@ For example my controller was js0.
    
    If your joystick isn't configured run this line of code:
    
-      sudo chomd a+rw /dev/input/js()
+      sudo chmod a+rw /dev/input/js()
 
 _In a new terminal:_
 
@@ -156,7 +156,7 @@ _In a new terminal:_
     
     mkdir launch
     
-    mkdir script
+    mkdir scripts
     
  **Creating the Launch and Script files**
  
@@ -170,7 +170,7 @@ _In a new terminal:_
 
 Paste the following code into your launch file (Make sure the js0 on line #8 matches your controller name):
  
-    launch>
+    <launch>
      <!-- Turtlesim Node-->
       <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node"/>
 
@@ -186,18 +186,18 @@ Paste the following code into your launch file (Make sure the js0 on line #8 mat
       <param name="axis_angular" value="0" type="int"/>
       <param name="scale_linear" value="2" type="double"/>
       <param name="scale_angular" value="2" type="double"/>
-      <node pkg="learning_joy" type="map.py" name="teleop"/>
+      <node pkg="learning_joy" type="mappping.py" name="teleop"/>
     </launch>
 
 Go back to your terminal and hit Ctrl C.
 
     cd ~/catkin_ws_turtlemove/src
     
-    cd scripts
+    cd learning_joy
     
-    touch map.py
+    touch mapping.py
     
-    gedit map.py
+    gedit mapping.py
     
  Insert the following code into your map.py file:
  
