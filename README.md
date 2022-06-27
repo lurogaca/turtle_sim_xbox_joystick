@@ -140,7 +140,7 @@ _In a new terminal:_
  
      cd ~/catkin_ws_turtlemove/src
  
-     catkin_create_pkg  turtle_movement rospy turtlesim joy
+     catkin_create_pkg  learning_joy rospy turtlesim joy
  
      cd ~/catkin_ws_turtlemove/
  
